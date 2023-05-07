@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Share Tech Mono", monospace;
+}
+
+.title {
+  @apply text-2xl text-slate-800 border-b pb-1;
+}
+
+.skills-icon {
+  @apply border p-2 rounded text-lg flex justify-center hover:bg-slate-100 transition duration-300 cursor-pointer;
+}
+
+.hobbies {
+  @apply py-1 px-2 text-sm sm:text-lg shadow rounded text-slate-600 flex items-center hover:bg-slate-100 transition duration-300 cursor-pointer;
+}
+
+.footer-icon {
+  @apply cursor-pointer transition duration-300;
+}
+
+.footer-icon-hover {
+  @apply border rounded-full p-2 hover:bg-slate-200 transition duration-300;
+}
+
+.projects-link {
+  @apply hover:bg-slate-300 transition duration-300 py-2 px-3 rounded-lg;
+}
+
+.projects-img {
+  @apply border rounded-lg hover:opacity-70 transition duration-300 cursor-pointer;
+}
+
+.others-project {
+  @apply rounded-lg border hover:opacity-70 transition duration-300;
+}
+
+.certificates-img {
+  @apply border rounded-lg hover:opacity-70 transition duration-300;
+}

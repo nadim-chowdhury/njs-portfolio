@@ -41,5 +41,5 @@
 }
 
 .certificates-img {
-  @apply border rounded-lg hover:opacity-70 transition duration-300;
+  @apply border rounded-lg hover:opacity-70 transition duration-300 cursor-pointer;
 }

@@ -14,12 +14,12 @@ export default function Certificates() {
         <img src="/c2.jpg" alt="" className="certificates-img" />
         <img src="/c3.jpg" alt="" className="certificates-img" />
         <img src="/c4.jpg" alt="" className="certificates-img" />
+        <img src="/c10.jpg" alt="" className="certificates-img" />
         <img src="/c5.jpg" alt="" className="certificates-img" />
         <img src="/c6.jpg" alt="" className="certificates-img" />
         <img src="/c7.jpg" alt="" className="certificates-img" />
         <img src="/c8.jpg" alt="" className="certificates-img" />
         <img src="/c9.jpg" alt="" className="certificates-img" />
-        <img src="/c10.jpg" alt="" className="certificates-img" />
       </div>
     </section>
   );

@@ -14,7 +14,7 @@ export default function Skills() {
   return (
     <div className="py-2 sm:mx-3 lg:mx-0">
       <h2 className="title">My Skills</h2>
-      <div className="grid grid-cols-5 gap-2 my-3 text-slate-700">
+      <div className="grid grid-cols-5 gap-2 mt-4 mb-3 text-slate-700">
         <div className="skills-icon">
           <IoLogoHtml5 />
         </div>
@@ -46,13 +46,13 @@ export default function Skills() {
           <SiTailwindcss />
         </div>
         <div className="skills-icon">
-          <BsGit />
+          <BsFillBootstrapFill />
         </div>
         <div className="skills-icon">
           <SiJquery />
         </div>
         <div className="skills-icon">
-          <BsFillBootstrapFill />
+          <BsGit />
         </div>
       </div>
     </div>

@@ -13,11 +13,11 @@
 }
 
 .skills-icon {
-  @apply border p-2 rounded text-lg flex justify-center hover:bg-slate-100 transition duration-300 cursor-pointer;
+  @apply border p-2 rounded flex justify-center hover:bg-slate-100 transition duration-300 cursor-pointer;
 }
 
 .hobbies {
-  @apply py-1 px-2 pl-3 text-sm sm:text-lg shadow rounded text-slate-600 flex items-center hover:bg-slate-100 transition duration-300 cursor-pointer;
+  @apply py-1 px-2 pl-3 text-sm sm:text-lg shadow-sm sm:shadow rounded text-slate-600 flex items-center hover:bg-slate-100 transition duration-300 cursor-pointer;
 }
 
 .footer-icon {

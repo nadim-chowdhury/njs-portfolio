@@ -1,4 +1,3 @@
-import { IoLogoCss3, IoLogoHtml5 } from "react-icons/io";
 import {
   SiExpress,
   SiJavascript,
@@ -6,6 +5,8 @@ import {
   SiMongodb,
   SiNextdotjs,
   SiTailwindcss,
+  SiCss3,
+  SiHtml5
 } from "react-icons/si";
 import { FaNodeJs, FaReact, FaSass } from "react-icons/fa";
 import { BsFillBootstrapFill, BsGit } from "react-icons/bs";
@@ -16,10 +17,10 @@ export default function Skills() {
       <h2 className="title">My Skills</h2>
       <div className="grid grid-cols-5 gap-2 mt-4 mb-3 text-slate-700">
         <div className="skills-icon">
-          <IoLogoHtml5 />
+          <SiHtml5 />
         </div>
         <div className="skills-icon">
-          <IoLogoCss3 />
+          <SiCss3 />
         </div>
         <div className="skills-icon">
           <SiJavascript />

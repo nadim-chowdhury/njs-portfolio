@@ -29,9 +29,9 @@ export default function Projects() {
 
         <div className="my-2 grid grid-cols-2 sm:grid-cols-4 gap-2">
           <img src="/d1.png" alt="" className="projects-img" />
-          <img src="/d2.png" alt="" className="projects-img" />
-          <img src="/d5.png" alt="" className="projects-img" />
           <img src="/d3.png" alt="" className="projects-img" />
+          <img src="/d5.png" alt="" className="projects-img" />
+          <img src="/d2.png" alt="" className="projects-img" />
           {/* <img src="/d4.png" alt="" className="projects-img" /> */}
         </div>
       </div>

@@ -5,7 +5,7 @@ export default function Certificates() {
     <section className="py-2 sm:mx-3 lg:mx-0">
       <h3 className="my-2 text-2xl text-center">My Certificates</h3>
 
-      <div className="flex items-center justify-between bg-slate-100 rounded-lg my-4">
+      <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4">
         <h4 className="font-bold p-2 text-slate-700">Collection</h4>
       </div>
 

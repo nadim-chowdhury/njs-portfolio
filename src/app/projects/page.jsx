@@ -9,7 +9,7 @@ export default function Projects() {
       <h3 className="my-2 text-2xl text-center">My Projects</h3>
 
       <div>
-        <div className="flex items-center justify-between bg-slate-100 rounded-lg my-4">
+        <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4">
           <h4 className="font-bold p-2 text-slate-700">Dashboard</h4>
           <div className="px-2 text-slate-600 flex items-center">
             <Link
@@ -37,7 +37,7 @@ export default function Projects() {
       </div>
 
       <div>
-        <div className="flex items-center justify-between bg-slate-100 rounded-lg my-4">
+        <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4">
           <h4 className="font-bold p-2 text-slate-700">eCommerce</h4>
           <div className="px-2 text-slate-600 flex items-center">
             <Link href="https://sh0pcart.netlify.app" className="projects-link">
@@ -62,7 +62,7 @@ export default function Projects() {
       </div>
 
       <div className="mb-2">
-        <h4 className="font-bold p-2 bg-slate-100 rounded-lg my-4 text-slate-700">
+        <h4 className="font-bold p-2 bg-slate-200 rounded-lg my-4 text-slate-700">
           Others
         </h4>
 

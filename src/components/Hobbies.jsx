@@ -1,5 +1,4 @@
-import { AiFillCamera } from "react-icons/ai";
-import { BsBookHalf, BsFileMusicFill } from "react-icons/bs";
+import { BsBookHalf, BsCameraFill, BsFileMusicFill } from "react-icons/bs";
 import { IoLogoGameControllerB, IoMdFootball } from "react-icons/io";
 
 export default function Hobbies() {
@@ -9,23 +8,23 @@ export default function Hobbies() {
 
       <div className="grid grid-cols-3 gap-2 my-3">
         <h4 className="hobbies">
-          <BsBookHalf className="mr-2 w-4 h-4" />
+          <BsBookHalf className="mr-2 w-4 h-4 hidden sm:block" />
           Reading
         </h4>
         <h4 className="hobbies">
-          <IoLogoGameControllerB className="mr-2 w-4 h-4" />
+          <IoLogoGameControllerB className="mr-2 w-4 h-4 hidden sm:block" />
           Gaming
         </h4>
         <h4 className="hobbies">
-          <BsFileMusicFill className="mr-2 w-4 h-4" />
+          <BsFileMusicFill className="mr-2 w-4 h-4 hidden sm:block" />
           Listening
         </h4>
         <h4 className="hobbies">
-          <AiFillCamera className="mr-2 w-4 h-4" />
+          <BsCameraFill className="mr-2 w-4 h-4 hidden sm:block" />
           Photography
         </h4>
         <h4 className="hobbies">
-          <IoMdFootball className="mr-2 w-4 h-4" />
+          <IoMdFootball className="mr-2 w-4 h-4 hidden sm:block" />
           Playing
         </h4>
       </div>

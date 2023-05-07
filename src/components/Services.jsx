@@ -11,7 +11,7 @@ export default function Services() {
           Single Page Application
         </h4>
         <h4 className="text-center rounded px-3 py-1 my-2 shadow">
-          Full Stack Web Development
+          Fullstack Web Development
         </h4>
       </div>
     </div>

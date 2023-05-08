@@ -9,7 +9,7 @@ export default function HeroBanner() {
         MySelf Nadim Chowdhury
       </h2>
       <h3 className="text-2xl sm:text-4xl">As a Web Developer</h3>
-      <h3 className="text-[12px] sm:text-lg mt-4 pl-[2px]">
+      <h3 className="text-[12px] sm:text-lg mt-4 pl-[2px] py-2">
         <Typewriter
           options={{
             strings: [

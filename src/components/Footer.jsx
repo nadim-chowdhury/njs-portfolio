@@ -47,7 +47,7 @@ export default function Footer() {
         </Link>
       </div>
 
-      <h3>Design & Developed By Nadim Chowdhury</h3>
+      <h3>Designed & Developed By Nadim Chowdhury</h3>
     </footer>
   );
 }

@@ -10,6 +10,8 @@ import {
 export default function Footer() {
   return (
     <footer className="text-md sm:text-xl text-slate-700 py-2 border-t-2 sm:mx-3 lg:mx-0">
+      <h2 className="text-2xl text-slate-800 pb-1">Contact With Me</h2>
+
       <h3>+880 1971 258803</h3>
       <h3>nadim-chowdhury@outlook.com</h3>
       <h3>Dhaka, Bangladesh</h3>

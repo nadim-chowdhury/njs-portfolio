@@ -4,13 +4,13 @@ export default function Services() {
       <h2 className="title">I Can Do</h2>
 
       <div className="sm:flex sm:justify-between my-3 text-slate-600">
-        <h4 className="text-center rounded px-3 py-1 my-2 shadow-sm">
+        <h4 className="text-center rounded px-3 py-1 my-2 shadow">
           Front End Development
         </h4>
-        <h4 className="text-center rounded px-3 py-1 my-2 shadow-sm">
+        <h4 className="text-center rounded px-3 py-1 my-2 shadow">
           Single Page Application
         </h4>
-        <h4 className="text-center rounded px-3 py-1 my-2 shadow-sm">
+        <h4 className="text-center rounded px-3 py-1 my-2 shadow">
           Fullstack Web Development
         </h4>
       </div>

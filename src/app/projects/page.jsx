@@ -6,7 +6,7 @@ import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
 export default function Projects() {
   return (
     <section className="py-3 projects sm:mx-3 lg:mx-0">
-      <h3 className="my-3 text-2xl text-center">My Projects</h3>
+      <h3 className="my-3 text-2xl text-center pb-2">My Projects</h3>
 
       <div>
         <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4">
@@ -34,6 +34,13 @@ export default function Projects() {
           <img src="/d2.png" alt="" className="projects-img" />
           {/* <img src="/d4.png" alt="" className="projects-img" /> */}
         </div>
+
+        <ul className="px-4 pb-1 mx-1 rounded-lg text-slate-600 list-disc">
+          <li>Multiple pages added for routing</li>
+          <li>Weather and country data fetched from api</li>
+          <li>Searching functionality added</li>
+          <li>Google firebase authentication implemented</li>
+        </ul>
       </div>
 
       <div>
@@ -59,6 +66,14 @@ export default function Projects() {
           <img src="/e3.png" alt="" className="projects-img" />
           {/* <img src="/e4.png" alt="" className="projects-img" /> */}
         </div>
+
+        <ul className="px-4 pb-1 mx-1 rounded-lg text-slate-600 list-disc">
+          <li>Multiple routes added with react-router-dom</li>
+          <li>Store pages all data are coming from api</li>
+          <li>Google firebase authentication added</li>
+          <li>Searching functionality added</li>
+          <li>You can&apos;t access the cart page without login</li>
+        </ul>
       </div>
 
       <div className="mb-1">

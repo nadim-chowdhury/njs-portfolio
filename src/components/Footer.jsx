@@ -9,12 +9,12 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="text-center text-md sm:text-xl text-slate-700 py-4 border-t-2 sm:mx-3 lg:mx-0">
+    <footer className="text-center text-md sm:text-lg text-slate-700 py-4 border-t-2 sm:mx-3 lg:mx-0">
       <h3>+880 1971 258803</h3>
       <h3>nadim-chowdhury@outlook.com</h3>
       <h3>Dhaka, Bangladesh</h3>
 
-      <div className="flex justify-center text-2xl py-1">
+      <div className="flex justify-center text-lg py-1">
         <Link
           href="https://www.facebook.com/nadim.ch0wdhury"
           className="footer-icon-hover"

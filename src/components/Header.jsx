@@ -24,7 +24,7 @@ export default function Header() {
       <div
         className={
           show
-            ? "text-lg absolute flex flex-col right-0 top-[68px] bg-white border-2 rounded"
+            ? "text-lg p-2 absolute flex flex-col right-0 top-[68px] bg-white border-2 rounded"
             : "hidden"
         }
       >

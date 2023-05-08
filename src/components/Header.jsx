@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <header className="flex justify-between items-center text-slate-900 py-3 border-b-2 relative sm:mx-3 lg:mx-0">
-      <h1 className="text-3xl uppercase font-medium">
+      <h1 className="text-3xl uppercase">
         <Link href="/">Nadim</Link>
       </h1>
 

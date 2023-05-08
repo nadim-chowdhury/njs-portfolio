@@ -1,19 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Oxygen Mono", monospace;
 }
 
 .title {
-  @apply text-2xl text-slate-800 border-b pb-1;
+  @apply text-2xl text-slate-800 border-b py-2;
 }
 
 .skills-icon {
-  @apply border p-2 rounded flex justify-center hover:bg-slate-100 transition duration-300 cursor-pointer;
+  @apply border p-2 rounded text-lg flex justify-center hover:bg-slate-100 transition duration-300 cursor-pointer;
 }
 
 .hobbies {

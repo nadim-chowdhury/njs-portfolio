@@ -6,16 +6,16 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiCss3,
-  SiHtml5
+  SiHtml5,
 } from "react-icons/si";
 import { FaNodeJs, FaReact, FaSass } from "react-icons/fa";
 import { BsFillBootstrapFill, BsGit } from "react-icons/bs";
 
 export default function Skills() {
   return (
-    <div className="py-2 sm:mx-3 lg:mx-0">
+    <div className="py-3 sm:mx-3 lg:mx-0">
       <h2 className="title">My Skills</h2>
-      <div className="grid grid-cols-5 gap-2 mt-4 mb-3 text-slate-700">
+      <div className="grid grid-cols-5 gap-3 my-5 text-slate-700">
         <div className="skills-icon">
           <SiHtml5 />
         </div>

@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="flex justify-between items-center text-slate-800 py-2 border-b-2 relative sm:mx-3 lg:mx-0">
+    <header className="flex justify-between items-center text-slate-800 py-3 border-b-2 relative sm:mx-3 lg:mx-0">
       <h1 className="text-3xl uppercase">
         <Link href="/">Nadim</Link>
       </h1>
@@ -24,7 +24,7 @@ export default function Header() {
       <div
         className={
           show
-            ? "text-lg absolute flex flex-col right-0 top-16 bg-white border-2 rounded"
+            ? "text-lg absolute flex flex-col right-0 top-[68px] bg-white border-2 rounded"
             : "hidden"
         }
       >

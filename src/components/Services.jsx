@@ -1,16 +1,13 @@
 export default function Services() {
   return (
-    <div className="text-sm sm:text-lg py-2 sm:mx-3 lg:mx-0">
+    <div className="text-sm sm:text-lg py-3 sm:mx-3 lg:mx-0">
       <h2 className="title">I Can Do</h2>
 
-      <div className="sm:flex sm:justify-between my-3 text-slate-600">
-        <h4 className="text-center rounded px-3 py-1 my-2 shadow-sm">
-          Front End Development
-        </h4>
-        <h4 className="text-center rounded px-3 py-1 my-2 shadow-sm">
+      <div className="sm:flex sm:justify-around my-5 text-slate-600">
+        <h4 className="text-center rounded-lg sm:w-[45%] py-2 my-4 sm:my-0 shadow-sm">
           Single Page Application
         </h4>
-        <h4 className="text-center rounded px-3 py-1 my-2 shadow-sm">
+        <h4 className="text-center rounded-lg sm:w-[45%] py-2 my-4 sm:my-0 shadow-sm">
           Fullstack Web Development
         </h4>
       </div>

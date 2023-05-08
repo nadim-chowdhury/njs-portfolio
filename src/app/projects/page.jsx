@@ -5,8 +5,8 @@ import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
 
 export default function Projects() {
   return (
-    <section className="py-2 projects sm:mx-3 lg:mx-0">
-      <h3 className="my-2 text-2xl text-center">My Projects</h3>
+    <section className="py-3 projects sm:mx-3 lg:mx-0">
+      <h3 className="my-3 text-2xl text-center">My Projects</h3>
 
       <div>
         <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4">
@@ -27,7 +27,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="my-2 grid grid-cols-2 sm:grid-cols-4 gap-2">
+        <div className="my-6 grid grid-cols-2 sm:grid-cols-4 gap-4">
           <img src="/d1.png" alt="" className="projects-img" />
           <img src="/d3.png" alt="" className="projects-img" />
           <img src="/d5.png" alt="" className="projects-img" />
@@ -52,7 +52,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="my-2 grid grid-cols-2 sm:grid-cols-4 gap-2">
+        <div className="my-6 grid grid-cols-2 sm:grid-cols-4 gap-4">
           <img src="/e1.png" alt="" className="projects-img" />
           <img src="/e2.png" alt="" className="projects-img" />
           <img src="/e5.png" alt="" className="projects-img" />
@@ -61,12 +61,12 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="mb-2">
+      <div className="mb-1">
         <h4 className="font-bold p-2 bg-slate-200 rounded-lg my-4 text-slate-700">
           Others
         </h4>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 my-6">
           <Link href="https://coiinbase.netlify.app">
             <img className="others-project" src="/p1.png" alt="" />
           </Link>

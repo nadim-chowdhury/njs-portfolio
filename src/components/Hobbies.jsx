@@ -3,10 +3,10 @@ import { IoLogoGameControllerB, IoMdFootball } from "react-icons/io";
 
 export default function Hobbies() {
   return (
-    <div className="pt-2 pb-4 sm:mx-3 lg:mx-0">
+    <div className="pt-3 pb-5 sm:mx-3 lg:mx-0">
       <h2 className="title">My Hobbies</h2>
 
-      <div className="grid grid-cols-3 gap-2 my-3">
+      <div className="grid grid-cols-3 gap-3 my-5">
         <h4 className="hobbies">
           <BsBookHalf className="mr-2 w-4 h-4 hidden sm:block" />
           Reading

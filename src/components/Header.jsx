@@ -31,21 +31,21 @@ export default function Header() {
         <Link
           href="/"
           onClick={() => setShow(!show)}
-          className="px-2 py-1 hover:bg-slate-100 transition duration-300"
+          className="p-2 hover:bg-slate-100 transition duration-300"
         >
           Home
         </Link>
         <Link
           href="/projects"
           onClick={() => setShow(!show)}
-          className="px-2 py-1 hover:bg-slate-100 transition duration-300"
+          className="p-2 hover:bg-slate-100 transition duration-300"
         >
           Projects
         </Link>
         <Link
           href="/certificates"
           onClick={() => setShow(!show)}
-          className="px-2 py-1 hover:bg-slate-100 transition duration-300"
+          className="p-2 hover:bg-slate-100 transition duration-300"
         >
           Certificates
         </Link>

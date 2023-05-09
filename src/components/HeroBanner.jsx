@@ -13,14 +13,14 @@ export default function HeroBanner() {
         Hello World!
       </motion.h3>
       <motion.h2
-        initial={{ x: 10 }}
+        initial={{ x: 15 }}
         animate={{ x: 0 }}
         className="text-3xl font-bold sm:text-5xl py-6"
       >
         I am Nadim Chowdhury
       </motion.h2>
       <motion.h3
-        initial={{ x: 20 }}
+        initial={{ x: 10 }}
         animate={{ x: 0 }}
         className="text-2xl sm:text-4xl"
       >

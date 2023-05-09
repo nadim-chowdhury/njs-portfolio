@@ -7,7 +7,7 @@ export const info = [
   {
     id: "2",
     title: "What are null, undeclared and undefined variables?",
-    para: "Undeclared variables are those that do not exist in a program and are not declared. Undefined variables are those that are declared in the program but have not been given any value. Null is a value that means nothing",
+    para: "Undeclared variables are those that do not exist in a program and are not declared. Undefined variables are those that are declared in the program but have not been given any value. Null is a value that means nothing.",
   },
   {
     id: "3",
@@ -37,7 +37,7 @@ export const info = [
   {
     id: "8",
     title: "What is the difference between .call() and .apply()?",
-    para: "The function .call() is used when the number of the functions arguments are known to the programmer, .apply() expects the argument to be an array ",
+    para: "The function .call() is used when the number of the functions arguments are known to the programmer, .apply() expects the argument to be an array.",
   },
   {
     id: "9",

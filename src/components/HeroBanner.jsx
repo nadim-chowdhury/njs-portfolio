@@ -1,14 +1,31 @@
 "use client";
 import Typewriter from "typewriter-effect";
+import { motion } from "framer-motion";
 
 export default function HeroBanner() {
   return (
     <div className="py-9 mt-2 sm:mx-3 lg:mx-0 text-slate-700">
-      <h3 className="text-3xl font-fold sm:text-4xl">Hello World!</h3>
-      <h2 className="text-2xl font-bold sm:text-5xl py-6">
-        MySelf Nadim Chowdhury
-      </h2>
-      <h3 className="text-2xl font-fold sm:text-4xl">As a Web Developer</h3>
+      <motion.h3
+        initial={{ x: 20 }}
+        animate={{ x: 0 }}
+        className="text-3xl sm:text-4xl"
+      >
+        Hello World!
+      </motion.h3>
+      <motion.h2
+        initial={{ x: 10 }}
+        animate={{ x: 0 }}
+        className="text-3xl font-bold sm:text-5xl py-6"
+      >
+        I am Nadim Chowdhury
+      </motion.h2>
+      <motion.h3
+        initial={{ x: 20 }}
+        animate={{ x: 0 }}
+        className="text-2xl sm:text-4xl"
+      >
+        As a Web Developer
+      </motion.h3>
       <h3 className="text-[12px] sm:text-lg mt-4 py-2 pl-[3px]">
         <Typewriter
           options={{

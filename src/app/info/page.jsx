@@ -1,4 +1,6 @@
+"use client";
 import { info } from "../info";
+import { motion } from "framer-motion";
 
 export default function Info() {
   return (
@@ -12,7 +14,15 @@ export default function Info() {
       <div className="my-6">
         {info.map((i) => (
           <div key={i.id} className="my-4 p-2 text-slate-600 border rounded-lg">
-            <h4 className="font-semibold">{i.title}</h4>
+            <motion.h4
+              initial={{ x: 20 }}
+              animate={{
+                x: 0,
+              }}
+              className="font-semibold"
+            >
+              {i.title}
+            </motion.h4>
             <p>
               &nbsp; <span className="text-slate-400">&gt;</span> &nbsp;
               {i.para}

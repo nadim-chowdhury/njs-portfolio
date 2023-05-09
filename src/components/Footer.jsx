@@ -3,15 +3,26 @@ import {
   AiFillFacebook,
   AiFillGithub,
   AiFillLinkedin,
+  AiFillPhone,
   AiFillTwitterCircle,
   AiFillYoutube,
 } from "react-icons/ai";
+import { GrMail } from "react-icons/gr";
 
 export default function Footer() {
   return (
-    <footer className="text-center text-md sm:text-lg text-slate-600 py-4 border-t-2 sm:mx-3 lg:mx-0">
-      <h3>+880 1971 258803</h3>
-      <h3>nadim-chowdhury@outlook.com</h3>
+    <footer className="text-center text-md sm:text-lg text-slate-700 py-4 border-t-2 sm:mx-3 lg:mx-0">
+      <div className="flex justify-center text-lg py-1">
+        <a href="tel:+8801971258803" className="footer-icon-hover">
+          <AiFillPhone className="footer-icon" />
+        </a>
+        <a
+          href="mailto:nadim-chowdhury@outlook.com"
+          className="footer-icon-hover"
+        >
+          <GrMail className="footer-icon" />
+        </a>
+      </div>
       <h3>Dhaka, Bangladesh</h3>
 
       <div className="flex justify-center text-lg py-1">

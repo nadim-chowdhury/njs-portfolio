@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-
+"use client";
 import Link from "next/link";
 import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   return (
@@ -35,12 +36,16 @@ export default function Projects() {
           {/* <img src="/d4.png" alt="" className="projects-img" /> */}
         </div>
 
-        <ul className="px-4 pb-1 mx-1 rounded-lg text-slate-600 list-disc">
+        <motion.ul
+          initial={{ opacity: 0.25 }}
+          animate={{ opacity: 1 }}
+          className="px-4 pb-1 mx-1 rounded-lg text-slate-600 list-disc"
+        >
           <li>Multiple pages added for routing</li>
           <li>Weather and country data fetched from api</li>
           <li>Searching functionality added</li>
           <li>Google firebase authentication implemented</li>
-        </ul>
+        </motion.ul>
       </div>
 
       <div>
@@ -67,13 +72,17 @@ export default function Projects() {
           {/* <img src="/e4.png" alt="" className="projects-img" /> */}
         </div>
 
-        <ul className="px-4 pb-1 mx-1 rounded-lg text-slate-600 list-disc">
+        <motion.ul
+          initial={{ opacity: 0.25 }}
+          animate={{ opacity: 1 }}
+          className="px-4 pb-1 mx-1 rounded-lg text-slate-600 list-disc"
+        >
           <li>Multiple routes added with react-router-dom</li>
           <li>Store pages all data are coming from api</li>
           <li>Google firebase authentication added</li>
           <li>Searching functionality added</li>
           <li>You can&apos;t access the cart page without login</li>
-        </ul>
+        </motion.ul>
       </div>
 
       <div className="mb-1">

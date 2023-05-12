@@ -8,16 +8,24 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+svg {
+  @apply dark:fill-[#00d4d4];
+}
+
+.text-gd {
+  @apply dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-tr dark:from-[#00aaff] dark:to-[#00ffaa];
+}
+
 .title {
-  @apply text-2xl text-slate-800 border-b py-2;
+  @apply text-2xl text-slate-800 border-b py-2 text-gd;
 }
 
 .skills-icon {
-  @apply border p-2 rounded text-lg flex justify-center hover:bg-slate-100 transition duration-300 cursor-pointer;
+  @apply border p-2 rounded text-lg flex justify-center hover:bg-slate-100 transition duration-300 cursor-pointer dark:text-neutral-200 dark:hover:bg-neutral-700;
 }
 
 .hobbies {
-  @apply py-1 px-2 pl-3 text-sm sm:text-lg shadow-sm rounded text-slate-600 flex items-center hover:bg-slate-100 transition duration-300 cursor-pointer;
+  @apply py-1 px-2 pl-3 text-sm sm:text-lg bg-slate-100 rounded text-slate-600 flex items-center hover:bg-slate-50 transition duration-300 cursor-pointer dark:text-neutral-200 dark:hover:bg-neutral-600 dark:bg-neutral-700;
 }
 
 .footer-icon {
@@ -25,12 +33,12 @@
 }
 
 .footer-icon-hover {
-  @apply border rounded-full p-2 hover:bg-slate-200 transition duration-300;
+  @apply border rounded-full p-2 hover:bg-slate-100 transition duration-300 dark:hover:bg-neutral-700;
 }
 
 .projects-link,
 .info-link {
-  @apply hover:bg-slate-300 transition duration-300 py-2 px-3 rounded-lg;
+  @apply hover:bg-slate-300 dark:hover:bg-neutral-600 transition duration-300 py-2 px-3 rounded-lg;
 }
 
 .projects-img {

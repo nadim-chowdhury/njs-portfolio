@@ -7,12 +7,12 @@ import { motion } from "framer-motion";
 export default function Projects() {
   return (
     <section className="py-3 projects sm:mx-3 lg:mx-0">
-      <h3 className="my-3 text-2xl text-center pb-2">My Projects</h3>
+      <h3 className="my-3 text-2xl text-center pb-2 text-gd">My Projects</h3>
 
       <div>
-        <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4">
-          <h4 className="font-bold p-2 text-slate-700">Dashboard</h4>
-          <div className="px-2 text-slate-600 flex items-center">
+        <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4 dark:bg-neutral-700">
+          <h4 className="font-bold p-2 text-slate-700 text-gd">Dashboard</h4>
+          <div className="px-2 text-slate-600 dark:text-neutral-200 flex items-center">
             <Link
               href="https://dash-b0ard.netlify.app"
               className="projects-link"
@@ -39,7 +39,7 @@ export default function Projects() {
         <motion.ul
           initial={{ opacity: 0.25 }}
           animate={{ opacity: 1 }}
-          className="px-4 pb-1 mx-1 rounded-lg text-slate-600 list-disc"
+          className="px-4 pb-1 mx-1 rounded-lg text-slate-600 list-disc dark:text-neutral-300"
         >
           <li>Multiple pages added for routing</li>
           <li>Weather and country data fetched from api</li>
@@ -49,9 +49,9 @@ export default function Projects() {
       </div>
 
       <div>
-        <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4">
-          <h4 className="font-bold p-2 text-slate-700">eCommerce</h4>
-          <div className="px-2 text-slate-600 flex items-center">
+        <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4 dark:bg-neutral-700">
+          <h4 className="font-bold p-2 text-slate-700 text-gd">eCommerce</h4>
+          <div className="px-2 text-slate-600 dark:text-neutral-200 flex items-center">
             <Link href="https://sh0pcart.netlify.app" className="projects-link">
               <AiOutlineLink />
             </Link>
@@ -75,7 +75,7 @@ export default function Projects() {
         <motion.ul
           initial={{ opacity: 0.25 }}
           animate={{ opacity: 1 }}
-          className="px-4 pb-1 mx-1 rounded-lg text-slate-600 list-disc"
+          className="px-4 pb-1 mx-1 rounded-lg text-slate-600 list-disc dark:text-neutral-300"
         >
           <li>Multiple routes added with react-router-dom</li>
           <li>Store pages all data are coming from api</li>
@@ -86,9 +86,9 @@ export default function Projects() {
       </div>
 
       <div className="mb-1">
-        <h4 className="font-bold p-2 bg-slate-200 rounded-lg my-4 text-slate-700">
-          Others
-        </h4>
+        <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4 dark:bg-neutral-700">
+          <h4 className="font-bold p-2 text-slate-700 text-gd">Others</h4>
+        </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 my-6">
           <Link href="https://coiinbase.netlify.app">

@@ -8,7 +8,7 @@ export default function About() {
       <motion.p
         initial={{ opacity: 0.5 }}
         animate={{ opacity: 1 }}
-        className="text-slate-600 text-justify text-md sm:text-lg my-4"
+        className="text-slate-600 text-justify text-md sm:text-lg my-4 dark:text-neutral-200"
       >
         I&apos;m a creative and passionate web developer who likes to build and
         develop websites for anyone. Learning, improving skills, and adapting to

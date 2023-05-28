@@ -11,7 +11,7 @@ import { GrMail } from "react-icons/gr";
 
 export default function Footer() {
   return (
-    <footer className="text-center text-md sm:text-lg text-slate-700 py-4 border-t-2 sm:mx-3 lg:mx-0 dark:text-neutral-200">
+    <footer className="text-center text-lg text-slate-700 py-4 border-t-2 sm:mx-3 lg:mx-0 dark:text-neutral-200">
       <div className="flex justify-center text-lg py-1">
         <a href="tel:+8801971258803" className="footer-icon-hover">
           <AiFillPhone className="footer-icon" />

@@ -45,7 +45,7 @@ export default function Header() {
   }, [show]);
 
   return (
-    <header className="flex justify-between items-center bg-white text-slate-800 py-3 border-b-2 sm:mx-3 lg:mx-0 sticky top-0 dark:bg-neutral-800 dark:text-neutral-200">
+    <header className="flex justify-between items-center bg-white text-slate-800 py-3 border-b-2 sm:mx-3 lg:mx-0 sticky top-0 dark:bg-neutral-800 dark:text-neutral-200 backdrop-saturate-100">
       <h1 className="text-3xl uppercase text-gd">
         <Link href="/">Nadim</Link>
       </h1>

@@ -18,33 +18,25 @@ export default function Header() {
       <motion.div
         initial={{ y: 15 }}
         animate={{ y: 0 }}
-        className="text-lg p-2 absolute flex flex-col right-0 top-[70px] bg-white border-2 rounded z-10 dark:bg-neutral-800 dark:text-neutral-300"
+        className="text-lg p-2 absolute flex flex-col right-0 top-[70px] bg-white border-2 rounded-md z-10 dark:bg-neutral-800 dark:text-neutral-300"
       >
-        <Link
-          href="/"
-          onClick={() => setShow(!show)}
-          className="py-2 px-3 hover:bg-slate-100 dark:hover:bg-neutral-700 transition duration-300 rounded-lg"
-        >
+        <Link href="/" onClick={() => setShow(!show)} className="menu-link">
           Home
         </Link>
         <Link
           href="/projects"
           onClick={() => setShow(!show)}
-          className="py-2 px-3 hover:bg-slate-100 dark:hover:bg-neutral-700 transition duration-300 rounded-lg"
+          className="menu-link"
         >
           Projects
         </Link>
-        <Link
-          href="/info"
-          onClick={() => setShow(!show)}
-          className="py-2 px-3 hover:bg-slate-100 dark:hover:bg-neutral-700 transition duration-300 rounded-lg"
-        >
+        <Link href="/info" onClick={() => setShow(!show)} className="menu-link">
           Info
         </Link>
         <Link
           href="/gallery"
           onClick={() => setShow(!show)}
-          className="py-2 px-3 hover:bg-slate-100 dark:hover:bg-neutral-700 transition duration-300 rounded-lg"
+          className="menu-link"
         >
           Gallery
         </Link>

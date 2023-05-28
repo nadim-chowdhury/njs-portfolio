@@ -10,7 +10,7 @@ export default function Projects() {
       <h3 className="my-3 text-2xl text-center pb-2 text-gd">My Projects</h3>
 
       <div>
-        <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4 dark:bg-neutral-700">
+        <div className="flex items-center justify-between bg-slate-200 rounded-md my-4 dark:bg-neutral-700">
           <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
             Dashboard
           </h4>
@@ -41,7 +41,7 @@ export default function Projects() {
         <motion.ul
           initial={{ opacity: 0.25 }}
           animate={{ opacity: 1 }}
-          className="px-4 pb-1 mx-1 rounded-lg text-slate-600 list-disc dark:text-neutral-300"
+          className="px-4 pb-1 mx-1 rounded-md text-slate-600 list-disc dark:text-neutral-300"
         >
           <li>Multiple pages added for routing</li>
           <li>Weather and country data fetched from api</li>
@@ -51,7 +51,7 @@ export default function Projects() {
       </div>
 
       <div>
-        <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4 dark:bg-neutral-700">
+        <div className="flex items-center justify-between bg-slate-200 rounded-md my-4 dark:bg-neutral-700">
           <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
             eCommerce
           </h4>
@@ -79,7 +79,7 @@ export default function Projects() {
         <motion.ul
           initial={{ opacity: 0.25 }}
           animate={{ opacity: 1 }}
-          className="px-4 pb-1 mx-1 rounded-lg text-slate-600 list-disc dark:text-neutral-300"
+          className="px-4 pb-1 mx-1 rounded-md text-slate-600 list-disc dark:text-neutral-300"
         >
           <li>Multiple routes added with react-router-dom</li>
           <li>Store pages all data are coming from api</li>
@@ -90,7 +90,7 @@ export default function Projects() {
       </div>
 
       <div className="mb-1">
-        <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4 dark:bg-neutral-700">
+        <div className="flex items-center justify-between bg-slate-200 rounded-md my-4 dark:bg-neutral-700">
           <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
             Others
           </h4>

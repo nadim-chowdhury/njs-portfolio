@@ -115,6 +115,9 @@ export default function Projects() {
           <Link href="https://greatcars.netlify.app">
             <img className="others-project" src="/p6.png" alt="" />
           </Link>
+          <Link href="https://movie-app-rjs.netlify.app">
+            <img className="others-project" src="/p7.png" alt="" />
+          </Link>
         </div>
       </div>
     </section>

@@ -39,7 +39,7 @@ export default function HeroBanner() {
         />
       </h3>
 
-      <div className="mt-4 font-bold">
+      <div className="mt-4">
         <a href="./nadim_chowdhury_eu_cv.pdf" download className="cv-cl mr-2">
           CV
         </a>

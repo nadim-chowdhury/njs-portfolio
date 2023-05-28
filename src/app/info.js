@@ -49,4 +49,9 @@ export const info = [
     title: "What is the use of debugger keyword in JavaScript?",
     para: "JavaScript debugger keyword sets the breakpoint through the code itself. The debugger stops the execution of the program at the position it is applied.",
   },
+  {
+    id: "11",
+    title: "What is hoisting in JavaScript?",
+    para: "Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their respective scopes before the code is executed.",
+  },
 ];

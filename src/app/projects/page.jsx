@@ -11,7 +11,9 @@ export default function Projects() {
 
       <div>
         <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4 dark:bg-neutral-700">
-          <h4 className="font-bold p-2 text-slate-700 text-gd">Dashboard</h4>
+          <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
+            Dashboard
+          </h4>
           <div className="px-2 text-slate-600 dark:text-neutral-200 flex items-center">
             <Link
               href="https://dash-b0ard.netlify.app"
@@ -50,7 +52,9 @@ export default function Projects() {
 
       <div>
         <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4 dark:bg-neutral-700">
-          <h4 className="font-bold p-2 text-slate-700 text-gd">eCommerce</h4>
+          <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
+            eCommerce
+          </h4>
           <div className="px-2 text-slate-600 dark:text-neutral-200 flex items-center">
             <Link href="https://sh0pcart.netlify.app" className="projects-link">
               <AiOutlineLink />
@@ -87,7 +91,9 @@ export default function Projects() {
 
       <div className="mb-1">
         <div className="flex items-center justify-between bg-slate-200 rounded-lg my-4 dark:bg-neutral-700">
-          <h4 className="font-bold p-2 text-slate-700 text-gd">Others</h4>
+          <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
+            Others
+          </h4>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 my-6">

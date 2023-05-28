@@ -4,11 +4,13 @@ import { motion } from "framer-motion";
 
 export default function Info() {
   return (
-    <section className="py-3 sm:mx-3 lg:mx-0">
+    <section className="py-3 sm:mx-3 lg:mx-0 text-justify">
       <h3 className="my-3 text-2xl text-center pb-2 text-gd">Information</h3>
 
       <div className="flex items-center justify-between bg-slate-200 dark:bg-neutral-700 rounded-lg my-4">
-        <h4 className="font-bold p-2 text-slate-700 text-gd">JavaScript</h4>
+        <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
+          JavaScript
+        </h4>
       </div>
 
       <div className="my-6">

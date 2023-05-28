@@ -26,7 +26,7 @@ export default function HeroBanner() {
       >
         As a Web Developer
       </motion.h3>
-      <h3 className="text-[12px] sm:text-lg mt-4 py-2 pl-[3px] dark:text-neutral-200">
+      <h3 className="text-[12px] sm:text-lg mt-4 py-2 pl-1 dark:text-neutral-200">
         <Typewriter
           options={{
             strings: [
@@ -38,6 +38,15 @@ export default function HeroBanner() {
           }}
         />
       </h3>
+
+      <div className="mt-4 font-bold">
+        <a href="./nadim_chowdhury_eu_cv.pdf" download className="cv-cl mr-2">
+          CV
+        </a>
+        <a href="./nadim_chowdhury_eu_cl.pdf" download className="cv-cl">
+          Cover Letter
+        </a>
+      </div>
     </div>
   );
 }

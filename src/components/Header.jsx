@@ -18,7 +18,7 @@ export default function Header() {
       <motion.div
         initial={{ y: 15 }}
         animate={{ y: 0 }}
-        className="text-lg p-2 absolute flex flex-col right-0 top-[70px] bg-white border-2 rounded-md z-10 dark:bg-neutral-800 dark:text-neutral-300"
+        className="text-lg p-2 absolute flex flex-col right-0 top-[70px] bg-white border-2 rounded-md z-10 dark:bg-slate-900 dark:text-neutral-300"
       >
         <Link href="/" onClick={() => setShow(!show)} className="menu-link">
           Home
@@ -45,7 +45,7 @@ export default function Header() {
   }, [show]);
 
   return (
-    <header className="flex justify-between items-center bg-white text-slate-800 py-3 border-b-2 sm:mx-3 lg:mx-0 sticky top-0 dark:bg-neutral-800 dark:text-neutral-200">
+    <header className="flex justify-between items-center bg-white text-slate-800 py-3 border-b-2 sm:mx-3 lg:mx-0 sticky top-0 dark:bg-slate-900 dark:text-neutral-200">
       <h1 className="text-3xl uppercase text-gd">
         <Link href="/">Nadim</Link>
       </h1>

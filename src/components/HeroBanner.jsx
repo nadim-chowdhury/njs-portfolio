@@ -40,10 +40,10 @@ export default function HeroBanner() {
       </h3>
 
       <div className="mt-4">
-        <a href="./nadim_chowdhury_eu_cv.pdf" download className="cv-cl mr-2">
+        <a href="./nadim_chowdhury_cv.pdf" download className="cv-cl mr-2">
           CV
         </a>
-        <a href="./nadim_chowdhury_eu_cl.pdf" download className="cv-cl">
+        <a href="./nadim_chowdhury_cl.pdf" download className="cv-cl">
           Cover Letter
         </a>
       </div>

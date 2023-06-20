@@ -10,7 +10,7 @@ export default function Projects() {
       <h3 className="my-3 text-2xl text-center pb-2 text-gd">My Projects</h3>
 
       <div>
-        <div className="flex items-center justify-between bg-slate-200 rounded-md my-4 dark:bg-neutral-700">
+        <div className="flex items-center justify-between bg-slate-200 rounded-md my-4 dark:bg-slate-700">
           <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
             Dashboard
           </h4>
@@ -51,7 +51,53 @@ export default function Projects() {
       </div>
 
       <div>
-        <div className="flex items-center justify-between bg-slate-200 rounded-md my-4 dark:bg-neutral-700">
+        <div className="flex items-center justify-between bg-slate-200 rounded-md my-4 dark:bg-slate-700">
+          <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
+            Cars Showroom
+          </h4>
+          <div className="px-2 text-slate-600 dark:text-neutral-200 flex items-center">
+            <Link
+              href="https://cars-showroom.vercel.app"
+              className="projects-link"
+            >
+              <AiOutlineLink />
+            </Link>
+            <Link
+              href="https://github.com/nadim-chowdhury/cars-showroom"
+              className="projects-link"
+            >
+              <AiOutlineGithub />
+            </Link>
+          </div>
+        </div>
+
+        <div className="my-6 grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <img src="/f1.png" alt="" className="projects-img" />
+          <img src="/f2.png" alt="" className="projects-img" />
+          <img src="/f3.png" alt="" className="projects-img" />
+          <img src="/f4.png" alt="" className="projects-img" />
+          {/* <img src="/e4.png" alt="" className="projects-img" /> */}
+        </div>
+
+        <motion.ul
+          initial={{ opacity: 0.25 }}
+          animate={{ opacity: 1 }}
+          className="px-4 pb-1 mx-1 rounded-md text-slate-600 list-disc dark:text-neutral-300"
+        >
+          <li>
+            Elegent lokking and responsive web application build in React js.
+          </li>
+          <li>All cars data are fetched from API.</li>
+          <li>Cars details page added using modal.</li>
+          <li>
+            Custom Search functionality and URL parameters implemented using
+            ssr.
+          </li>
+        </motion.ul>
+      </div>
+
+      <div>
+        <div className="flex items-center justify-between bg-slate-200 rounded-md my-4 dark:bg-slate-700">
           <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
             eCommerce
           </h4>
@@ -90,7 +136,7 @@ export default function Projects() {
       </div>
 
       <div className="mb-1">
-        <div className="flex items-center justify-between bg-slate-200 rounded-md my-4 dark:bg-neutral-700">
+        <div className="flex items-center justify-between bg-slate-200 rounded-md my-4 dark:bg-slate-700">
           <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
             Others
           </h4>

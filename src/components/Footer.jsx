@@ -11,7 +11,7 @@ import { GrMail } from "react-icons/gr";
 
 export default function Footer() {
   return (
-    <footer className="text-center text-md sm:text-lg text-slate-600 py-4 border-t-2 sm:mx-3 lg:mx-0 dark:text-neutral-300">
+    <footer className="text-center text-md sm:text-lg text-slate-600 py-5 border-t-2 sm:mx-3 lg:mx-0 dark:text-neutral-300">
       <div className="flex justify-center text-lg py-1">
         <a href="tel:+8801971258803" className="footer-icon-hover">
           <AiFillPhone className="footer-icon" />
@@ -58,7 +58,7 @@ export default function Footer() {
         </Link>
       </div>
 
-      <h3>Designed & Developed By <br className="sm:hidden"/> Nadim Chowdhury</h3>
+      <h3>Designed & Developed By Nadim Chowdhury</h3>
     </footer>
   );
 }

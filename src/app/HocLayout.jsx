@@ -13,7 +13,7 @@ export default function HocLayout({ children }) {
         <Header />
         <div
           onClick={() => setDark(!dark)}
-          className={`absolute top-[17px] z-10 right-10 border shadow p-1 rounded-full cursor-pointer ${
+          className={`absolute top-[17px] z-10 right-10 border p-1 rounded-full cursor-pointer ${
             dark && "text-white"
           }`}
         >

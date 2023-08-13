@@ -9,11 +9,11 @@ export default function HocLayout({ children }) {
 
   return (
     <html lang="en" className={dark && "dark"}>
-      <body className="mx-4 sm:max-w-3xl sm:mx-auto dark:bg-slate-900 relative">
+      <body className="mx-4 sm:max-w-3xl sm:mx-auto min-h-screen dark:bg-gradient-to-tr dark:from-gray-950 dark:to-gray-900 relative">
         <Header />
         <div
           onClick={() => setDark(!dark)}
-          className={`absolute top-[17px] z-10 right-10 border p-1 rounded-full cursor-pointer ${
+          className={`absolute top-[19px] z-10 right-10 text-sm border p-1 rounded-full cursor-pointer ${
             dark && "text-white"
           }`}
         >

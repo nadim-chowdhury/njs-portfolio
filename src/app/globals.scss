@@ -14,7 +14,7 @@ svg {
 }
 
 .text-gd {
-  @apply dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-tr dark:from-[#00eebb] dark:to-[#00eebb];
+  @apply dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-tr dark:text-[#00eebb] tracking-wide;
 }
 
 .title {
@@ -22,11 +22,11 @@ svg {
 }
 
 .menu-link {
-  @apply py-1 px-3 hover:bg-slate-100 dark:hover:bg-slate-700 transition duration-300 rounded-md;
+  @apply py-1 px-3 hover:bg-slate-100 dark:hover:bg-slate-700 transition duration-300 rounded;
 }
 
 .cv-cl {
-  @apply border px-4 py-1 rounded-md hover:bg-slate-100 transition-all duration-300 dark:text-neutral-200 dark:hover:bg-slate-700;
+  @apply border px-4 py-1 rounded-md hover:bg-slate-200 transition-all duration-300 dark:text-neutral-200 dark:hover:bg-slate-700;
 }
 
 .skills-icon {
@@ -34,7 +34,7 @@ svg {
 }
 
 .hobbies {
-  @apply py-1 px-2 pl-3 text-sm sm:text-lg bg-slate-100 rounded text-slate-600 flex items-center transition duration-300 cursor-pointer dark:text-neutral-200 dark:bg-slate-800;
+  @apply py-1 px-2 pl-3 text-sm sm:text-lg bg-slate-100 hover:bg-slate-200 rounded text-slate-600 flex items-center transition duration-300 cursor-pointer dark:text-neutral-200 dark:bg-slate-800 dark:hover:bg-slate-700;
 }
 
 .footer-icon {

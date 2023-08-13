@@ -8,7 +8,7 @@ export default function Info() {
       <h3 className="my-3 text-2xl text-center pb-2 text-gd">Information</h3>
 
       <div className="flex items-center justify-between bg-slate-200 dark:bg-slate-700 rounded-md my-4">
-        <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
+        <h4 className="font-bold px-4 py-2 text-slate-700 text-gd text-lg">
           JavaScript
         </h4>
       </div>
@@ -17,12 +17,12 @@ export default function Info() {
         {info.map((i) => (
           <div
             key={i.id}
-            className="my-4 p-2 text-slate-600 dark:text-neutral-300 border rounded-md"
+            className="my-4 px-4 py-2 text-slate-600 dark:text-neutral-300 border rounded-md"
           >
             <motion.h4
-              initial={{ x: 20 }}
+              initial={{ y: 5 }}
               animate={{
-                x: 0,
+                y: 0,
               }}
               className="font-semibold"
             >

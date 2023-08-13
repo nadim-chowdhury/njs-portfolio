@@ -6,7 +6,7 @@ export default function Gallery() {
       <h3 className="my-3 text-2xl text-center pb-2 text-gd">Gallery</h3>
 
       <div className="flex items-center justify-between bg-slate-200 dark:bg-slate-700 rounded-md my-4">
-        <h4 className="font-bold p-2 text-slate-700 text-gd text-lg">
+        <h4 className="font-bold px-4 py-2 text-slate-700 text-gd text-lg">
           Certificates
         </h4>
       </div>

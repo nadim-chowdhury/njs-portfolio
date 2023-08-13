@@ -8,21 +8,21 @@ export default function HeroBanner() {
       <motion.h3
         initial={{ y: 20 }}
         animate={{ y: 0 }}
-        className="text-3xl sm:text-3xl dark:text-neutral-200 text-center"
+        className="text-2xl sm:text-3xl dark:text-neutral-200 text-center"
       >
         Hello World!
       </motion.h3>
       <motion.h2
         initial={{ y: 15 }}
         animate={{ y: 0 }}
-        className="text-3xl font-bold sm:text-4xl py-6 text-gd text-center"
+        className="text-2xl font-bold sm:text-4xl py-6 text-gd text-center"
       >
         It&apos;s Me Nadim Chowdhury
       </motion.h2>
       <motion.h3
         initial={{ y: 10 }}
         animate={{ y: 0 }}
-        className="text-2xl sm:text-3xl dark:text-neutral-200 text-center"
+        className="text-xl sm:text-3xl dark:text-neutral-200 text-center"
       >
         As a Web Developer
       </motion.h3>

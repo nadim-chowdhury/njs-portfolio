@@ -9,7 +9,7 @@ export default function HocLayout({ children }) {
 
   return (
     <html lang="en" className={dark && "dark"}>
-      <body className="mx-4 sm:max-w-3xl sm:mx-auto min-h-screen dark:bg-gradient-to-tr dark:from-gray-950 dark:to-gray-900 relative">
+      <body className="mx-4 sm:max-w-3xl sm:mx-auto min-h-screen dark:bg-gradient-to-tr dark:bg-gray-900 relative">
         <Header />
         <div
           onClick={() => setDark(!dark)}

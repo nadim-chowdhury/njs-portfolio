@@ -26,7 +26,7 @@ svg {
 }
 
 .cv-cl {
-  @apply border px-4 py-1 rounded-md hover:bg-slate-200 transition-all duration-300 dark:text-neutral-200 dark:hover:bg-slate-700;
+  @apply border-2 dark:border px-4 py-1 rounded-md hover:bg-slate-200 transition-all duration-300 dark:text-neutral-200 dark:hover:bg-slate-700;
 }
 
 .skills-icon {

@@ -15,9 +15,9 @@ export default function HeroBanner() {
       <motion.h2
         initial={{ y: 15 }}
         animate={{ y: 0 }}
-        className="text-2xl font-bold sm:text-4xl py-2 text-gd text-center bg-gradient-to-tr from-slate-700 via-slate-600 to-slate-700 text-slate-100 my-4 rounded-tl-xl rounded-br-xl sm:max-w-3xl sm:mx-auto"
+        className="text-2xl font-bold sm:text-4xl py-2 text-gd text-center my-4 rounded-tl-xl rounded-br-xl sm:max-w-3xl sm:mx-auto"
       >
-        It&apos;s Me <span className="my__name">Nadim Chowdhury</span>
+        It&apos;s Me Nadim Chowdhury
       </motion.h2>
       <motion.h3
         initial={{ y: 10 }}

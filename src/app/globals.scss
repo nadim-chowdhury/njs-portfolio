@@ -13,6 +13,11 @@ svg {
   @apply dark:fill-[#00eebb];
 }
 
+// .my__name {
+//   color: transparent;
+//   -webkit-text-stroke: 1px solid #000;
+// }
+
 .text-gd {
   @apply dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-tr dark:text-[#00eebb] tracking-wide;
 }
@@ -30,7 +35,7 @@ svg {
 }
 
 .skills-icon {
-  @apply border p-2 rounded text-lg flex justify-center hover:bg-slate-100 transition duration-300 cursor-pointer dark:text-neutral-200 dark:hover:bg-slate-700;
+  @apply border p-2 rounded text-lg sm:text-xl flex justify-center hover:bg-slate-100 transition duration-300 cursor-pointer dark:text-neutral-200 dark:hover:bg-slate-700;
 }
 
 .hobbies {

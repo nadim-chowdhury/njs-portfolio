@@ -8,16 +8,16 @@ export default function HeroBanner() {
       <motion.h3
         initial={{ y: 20 }}
         animate={{ y: 0 }}
-        className="text-2xl sm:text-3xl dark:text-neutral-200 text-center"
+        className="text-3xl sm:text-4xl dark:text-neutral-200 text-center"
       >
         Hello World!
       </motion.h3>
       <motion.h2
         initial={{ y: 15 }}
         animate={{ y: 0 }}
-        className="text-2xl font-bold sm:text-4xl py-6 text-gd text-center"
+        className="text-2xl font-bold sm:text-4xl py-2 text-gd text-center bg-slate-700 text-slate-100 my-4 rounded-tl-lg rounded-br-lg sm:max-w-3xl sm:mx-auto"
       >
-        It&apos;s Me Nadim Chowdhury
+        It&apos;s Me <span className="my__name">Nadim Chowdhury</span>
       </motion.h2>
       <motion.h3
         initial={{ y: 10 }}
@@ -39,8 +39,12 @@ export default function HeroBanner() {
         />
       </h3>
 
-      <div className="mt-4 flex justify-center items-center">
-        <a href="./nadim-chowdhury-resume-mearn.pdf" download className="cv-cl">
+      <div className="mt-4 flex justify-center items-center text-xs">
+        <a
+          href="./nadim-chowdhury-mearn-resume-cl.pdf"
+          download
+          className="cv-cl"
+        >
           Resume
         </a>
       </div>

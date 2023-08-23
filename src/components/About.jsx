@@ -6,14 +6,15 @@ export default function About() {
     <div className="py-3 sm:mx-3 lg:mx-0">
       <h2 className="title">About Me</h2>
       <motion.p
-        initial={{ opacity: 0.5 }}
+        initial={{ opacity: 0.75 }}
         animate={{ opacity: 1 }}
-        className="text-slate-600 text-justify text-md sm:text-lg my-4 dark:text-neutral-200"
+        className="text-slate-600 text-justify sm:text-lg my-4 dark:text-neutral-200"
       >
-        I&apos;m a creative and passionate web developer who likes to build and
-        develop websites for anyone. Learning, improving skills, and adapting to
-        new technologies are my hobbies. I can give my total effort and perform
-        any teamwork with responsibility.
+        I&apos;m a creative and passionate front-end focused full-stack web
+        developer who likes to build and develop web apps for anyone. Learning,
+        improving skills, and adapting to new technologies are my hobbies. I can
+        give my total effort and perform any kind of teamwork with
+        responsibility.
       </motion.p>
     </div>
   );
